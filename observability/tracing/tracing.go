@@ -1,4 +1,4 @@
-// Package tracing provides OTEL for the auth service.
+// Package tracing provides shared OTEL config.
 package tracing
 
 import (
