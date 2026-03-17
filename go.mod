@@ -3,7 +3,9 @@ module github.com/alkuwaiti/shared
 go 1.25.6
 
 require (
+	github.com/XSAM/otelsql v0.41.0
 	github.com/google/uuid v1.6.0
+	github.com/lib/pq v1.11.2
 	go.opentelemetry.io/otel v1.42.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.42.0
 	go.opentelemetry.io/otel/sdk v1.42.0
