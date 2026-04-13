@@ -5,7 +5,6 @@ import (
 	"net"
 
 	"github.com/google/uuid"
-	"go.opentelemetry.io/otel/trace"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"
 )
