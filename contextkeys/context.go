@@ -32,15 +32,6 @@ func UserRolesFromContext(ctx context.Context) ([]string, error) {
 	return roles, nil
 }
 
-func UserEmailFromContext(ctx context.Context) (string, error) {
-	email, ok := ctx.Value(EmailKey{}).(string)
-	if !ok {
-		return "", ErrMissingUserEmail
-	}
-
-	return email, nil
-}
-
 func RequestMetaFromContext(ctx context.Context) RequestMeta {
 	meta, ok := ctx.Value(RequestMetaKeyType{}).(RequestMeta)
 	if !ok {

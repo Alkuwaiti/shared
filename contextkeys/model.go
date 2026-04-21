@@ -3,8 +3,6 @@ package contextkeys
 
 import "log/slog"
 
-type EmailKey struct{}
-
 type UserIDKey struct{}
 
 type UserAgentKey struct{}
